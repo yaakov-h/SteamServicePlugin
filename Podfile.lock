@@ -1,0 +1,41 @@
+
+SPEC CHECKSUMS: 
+  ProtocolBuffers: 4cfc0be30608c699905cdd3e0b82664a24d71d59
+  SKSteamKit/arc: 93f6f7bed1f6f1570b3e3baf498b63abb47d2adc
+  CocoaAsyncSocket: 70f5de3c1ba13526c23df75fc98a0ea3049aa19c
+  zipzap: b6d45dee3ceca81eca860e1bd8ff44a5cd618c7e
+  SKSteamKit/nonarc: 93f6f7bed1f6f1570b3e3baf498b63abb47d2adc
+  CRBoilerplate: 46ef58b76bcf931ac8930c3febe17bf4d46d5db1
+  SKSteamKit: 93f6f7bed1f6f1570b3e3baf498b63abb47d2adc
+
+EXTERNAL SOURCES: 
+  SKSteamKit: 
+    :podspec: /Users/yaakov/Development/SteamServicePlugin/SKSteamKit.podspec
+
+COCOAPODS: 0.15.2
+
+DEPENDENCIES: 
+- SKSteamKit (from `/Users/yaakov/Development/SteamServicePlugin/SKSteamKit.podspec')
+
+PODS: 
+- CRBoilerplate (0.1.4)
+- CocoaAsyncSocket (0.0.1)
+- ProtocolBuffers (0.1.0)
+- SKSteamKit (0.1.6): 
+  - CRBoilerplate (from `/Users/yaakov/Development/SteamServicePlugin/CRBoilerplate.podspec')
+  - CocoaAsyncSocket (~> 0.0.1)
+  - ProtocolBuffers (from `https://raw.github.com/yaakov-h/SKSteamKit/master/podspecs/ProtocolBuffers.podspec')
+  - SKSteamKit/arc (= 0.1.6)
+  - SKSteamKit/nonarc (= 0.1.6)
+  - zipzap (from `/Users/yaakov/Development/SteamServicePlugin/zipzap.podspec')
+- SKSteamKit/arc (0.1.6): 
+  - CRBoilerplate (from `/Users/yaakov/Development/SteamServicePlugin/CRBoilerplate.podspec')
+  - CocoaAsyncSocket (~> 0.0.1)
+  - ProtocolBuffers (from `https://raw.github.com/yaakov-h/SKSteamKit/master/podspecs/ProtocolBuffers.podspec')
+  - zipzap (from `/Users/yaakov/Development/SteamServicePlugin/zipzap.podspec')
+- SKSteamKit/nonarc (0.1.6): 
+  - CRBoilerplate (from `/Users/yaakov/Development/SteamServicePlugin/CRBoilerplate.podspec')
+  - CocoaAsyncSocket (~> 0.0.1)
+  - ProtocolBuffers (from `https://raw.github.com/yaakov-h/SKSteamKit/master/podspecs/ProtocolBuffers.podspec')
+  - zipzap (from `/Users/yaakov/Development/SteamServicePlugin/zipzap.podspec')
+- zipzap (3.1.0)
